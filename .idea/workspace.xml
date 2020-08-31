@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed75c465-1ab2-4236-a7bc-a262b6c74d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mxnet/3.11.4多项式函数拟合实验.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/3.12.2高维线性回归实验.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/3.12.4权重衰减简介实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/3.13.2丢弃法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/3.16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/3.16房价预测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3-多层感知机0-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3-多层感知机简介实现.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gJhC6jz7ZB22khnMWpSPOdWVFE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.3.16">
+    <configuration name="3.12.2高维线性回归实验" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.12.2高维线性回归实验.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.12.4权重衰减简介实现" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.12.4权重衰减简介实现.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.13.2丢弃法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.13.2丢弃法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.16房价预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.16房价预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.16.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3.16" />
+        <item itemvalue="Python.3.16房价预测" />
+        <item itemvalue="Python.3.13.2丢弃法" />
+        <item itemvalue="Python.3.12.4权重衰减简介实现" />
+        <item itemvalue="Python.3.12.2高维线性回归实验" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed75c465-1ab2-4236-a7bc-a262b6c74d13" name="Default Changelist" comment="" />
+      <created>1597838471755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597838471755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1561" height="240" key="GridCell.Tab.0.bottom" timestamp="1598771369211">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="407" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="240" key="GridCell.Tab.0.bottom/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369211" />
+    <state width="1376" height="164" key="GridCell.Tab.0.bottom/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963937" />
+    <state width="1561" height="226" key="GridCell.Tab.0.bottom/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
+    <state width="1561" height="194" key="GridCell.Tab.0.bottom/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
+    <state width="1600" height="359" key="GridCell.Tab.0.bottom/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
+    <state width="1561" height="240" key="GridCell.Tab.0.center" timestamp="1598771369210">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="407" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="240" key="GridCell.Tab.0.center/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
+    <state width="1376" height="164" key="GridCell.Tab.0.center/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963935" />
+    <state width="1561" height="226" key="GridCell.Tab.0.center/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
+    <state width="1561" height="194" key="GridCell.Tab.0.center/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
+    <state width="1600" height="359" key="GridCell.Tab.0.center/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
+    <state width="1561" height="240" key="GridCell.Tab.0.left" timestamp="1598771369208">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="407" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="240" key="GridCell.Tab.0.left/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369208" />
+    <state width="1376" height="164" key="GridCell.Tab.0.left/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963934" />
+    <state width="1561" height="226" key="GridCell.Tab.0.left/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
+    <state width="1600" height="304" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1057" timestamp="1598534870352" />
+    <state width="1561" height="194" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128873" />
+    <state width="1600" height="359" key="GridCell.Tab.0.left/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
+    <state width="1561" height="240" key="GridCell.Tab.0.right" timestamp="1598771369210">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="407" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="240" key="GridCell.Tab.0.right/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
+    <state width="1376" height="164" key="GridCell.Tab.0.right/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963936" />
+    <state width="1561" height="226" key="GridCell.Tab.0.right/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
+    <state width="1561" height="194" key="GridCell.Tab.0.right/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
+    <state width="1600" height="359" key="GridCell.Tab.0.right/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
+    <state width="1600" height="329" key="GridCell.Tab.1.bottom" timestamp="1598771369118">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="329" key="GridCell.Tab.1.bottom/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369118" />
+    <state width="1600" height="329" key="GridCell.Tab.1.bottom/0.23.1792.1058@0.23.1792.1058" timestamp="1598335542930" />
+    <state width="1600" height="329" key="GridCell.Tab.1.center" timestamp="1598771369118">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="329" key="GridCell.Tab.1.center/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369118" />
+    <state width="1600" height="329" key="GridCell.Tab.1.center/0.23.1792.1058@0.23.1792.1058" timestamp="1598335542929" />
+    <state width="1600" height="329" key="GridCell.Tab.1.left" timestamp="1598771369116">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="329" key="GridCell.Tab.1.left/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369116" />
+    <state width="1600" height="329" key="GridCell.Tab.1.left/0.23.1792.1058@0.23.1792.1058" timestamp="1598335542929" />
+    <state width="1600" height="329" key="GridCell.Tab.1.right" timestamp="1598771369118">
+      <screen x="0" y="23" width="1792" height="1055" />
+    </state>
+    <state width="1600" height="329" key="GridCell.Tab.1.right/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369118" />
+    <state width="1600" height="329" key="GridCell.Tab.1.right/0.23.1792.1058@0.23.1792.1058" timestamp="1598335542929" />
+    <state x="575" y="274" width="604" height="490" key="find.popup" timestamp="1598582305318">
+      <screen x="0" y="23" width="1792" height="1058" />
+    </state>
+    <state x="575" y="274" width="604" height="490" key="find.popup/0.23.1792.1058@0.23.1792.1058" timestamp="1598582305318" />
+    <state x="567" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1598607168032">
+      <screen x="0" y="23" width="1792" height="1057" />
+    </state>
+    <state x="567" y="240" width="670" height="676" key="search.everywhere.popup/0.23.1792.1057@0.23.1792.1057" timestamp="1598607168032" />
+  </component>
+</project>
