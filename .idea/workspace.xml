@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed75c465-1ab2-4236-a7bc-a262b6c74d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mxnet/深度学习计算/4.4自定义层.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/深度学习计算/4.5读取和存储.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mxnet" />
   </component>
-  <component name="RunManager" selected="Python.4.4自定义层">
+  <component name="RunManager" selected="Python.4.5读取和存储">
     <configuration name="1-线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ml" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,27 +61,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/深度学习基础/1-线性回归.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.16房价预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ml" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/3.16房价预测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,13 +153,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4.5读取和存储" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet/深度学习计算" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/深度学习计算/4.5读取和存储.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4.5读取和存储" />
         <item itemvalue="Python.4.4自定义层" />
         <item itemvalue="Python.4.3模型参数的延后初始化" />
         <item itemvalue="Python.4.2模型参数的访问、初始化和共享" />
         <item itemvalue="Python.1-线性回归" />
-        <item itemvalue="Python.3.16房价预测" />
       </list>
     </recent_temporary>
   </component>
@@ -208,58 +208,62 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="571" y="608" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603355926747">
+      <screen x="0" y="23" width="1792" height="1051" />
+    </state>
+    <state x="571" y="608" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1051@0.23.1792.1051" timestamp="1603355926747" />
     <state x="665" y="279" key="FileChooserDialogImpl" timestamp="1603336245111">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="665" y="279" key="FileChooserDialogImpl/0.23.1792.1050@0.23.1792.1050" timestamp="1603336245111" />
-    <state width="1561" height="311" key="GridCell.Tab.0.bottom" timestamp="1603352704522">
+    <state width="1561" height="204" key="GridCell.Tab.0.bottom" timestamp="1603355490250">
       <screen x="0" y="23" width="1792" height="1051" />
     </state>
     <state width="1561" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114590" />
     <state width="1561" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="311" key="GridCell.Tab.0.bottom/0.23.1792.1050@0.23.1792.1050" timestamp="1603349715411" />
-    <state width="1561" height="311" key="GridCell.Tab.0.bottom/0.23.1792.1051@0.23.1792.1051" timestamp="1603352704522" />
-    <state width="1561" height="311" key="GridCell.Tab.0.bottom/0.23.1792.1052@0.23.1792.1052" timestamp="1603351461656" />
+    <state width="1561" height="204" key="GridCell.Tab.0.bottom/0.23.1792.1051@0.23.1792.1051" timestamp="1603355490250" />
+    <state width="1561" height="183" key="GridCell.Tab.0.bottom/0.23.1792.1052@0.23.1792.1052" timestamp="1603354965470" />
     <state width="1561" height="240" key="GridCell.Tab.0.bottom/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369211" />
     <state width="1376" height="164" key="GridCell.Tab.0.bottom/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963937" />
     <state width="1561" height="226" key="GridCell.Tab.0.bottom/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1561" height="194" key="GridCell.Tab.0.bottom/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
     <state width="1600" height="359" key="GridCell.Tab.0.bottom/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="311" key="GridCell.Tab.0.center" timestamp="1603352704521">
+    <state width="1561" height="204" key="GridCell.Tab.0.center" timestamp="1603355490249">
       <screen x="0" y="23" width="1792" height="1051" />
     </state>
     <state width="1561" height="276" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114589" />
     <state width="1561" height="276" key="GridCell.Tab.0.center/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="311" key="GridCell.Tab.0.center/0.23.1792.1050@0.23.1792.1050" timestamp="1603349715410" />
-    <state width="1561" height="311" key="GridCell.Tab.0.center/0.23.1792.1051@0.23.1792.1051" timestamp="1603352704521" />
-    <state width="1561" height="311" key="GridCell.Tab.0.center/0.23.1792.1052@0.23.1792.1052" timestamp="1603351461655" />
+    <state width="1561" height="204" key="GridCell.Tab.0.center/0.23.1792.1051@0.23.1792.1051" timestamp="1603355490249" />
+    <state width="1561" height="183" key="GridCell.Tab.0.center/0.23.1792.1052@0.23.1792.1052" timestamp="1603354965469" />
     <state width="1561" height="240" key="GridCell.Tab.0.center/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
     <state width="1376" height="164" key="GridCell.Tab.0.center/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963935" />
     <state width="1561" height="226" key="GridCell.Tab.0.center/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1561" height="194" key="GridCell.Tab.0.center/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
     <state width="1600" height="359" key="GridCell.Tab.0.center/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="311" key="GridCell.Tab.0.left" timestamp="1603352704521">
+    <state width="1561" height="204" key="GridCell.Tab.0.left" timestamp="1603355490248">
       <screen x="0" y="23" width="1792" height="1051" />
     </state>
     <state width="1561" height="276" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114589" />
     <state width="1561" height="276" key="GridCell.Tab.0.left/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="311" key="GridCell.Tab.0.left/0.23.1792.1050@0.23.1792.1050" timestamp="1603349715410" />
-    <state width="1561" height="311" key="GridCell.Tab.0.left/0.23.1792.1051@0.23.1792.1051" timestamp="1603352704521" />
-    <state width="1561" height="311" key="GridCell.Tab.0.left/0.23.1792.1052@0.23.1792.1052" timestamp="1603351461655" />
+    <state width="1561" height="204" key="GridCell.Tab.0.left/0.23.1792.1051@0.23.1792.1051" timestamp="1603355490248" />
+    <state width="1561" height="183" key="GridCell.Tab.0.left/0.23.1792.1052@0.23.1792.1052" timestamp="1603354965468" />
     <state width="1561" height="240" key="GridCell.Tab.0.left/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369208" />
     <state width="1376" height="164" key="GridCell.Tab.0.left/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963934" />
     <state width="1561" height="226" key="GridCell.Tab.0.left/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1600" height="304" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1057" timestamp="1598534870352" />
     <state width="1561" height="194" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128873" />
     <state width="1600" height="359" key="GridCell.Tab.0.left/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="311" key="GridCell.Tab.0.right" timestamp="1603352704522">
+    <state width="1561" height="204" key="GridCell.Tab.0.right" timestamp="1603355490249">
       <screen x="0" y="23" width="1792" height="1051" />
     </state>
     <state width="1561" height="276" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114590" />
     <state width="1561" height="276" key="GridCell.Tab.0.right/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="311" key="GridCell.Tab.0.right/0.23.1792.1050@0.23.1792.1050" timestamp="1603349715410" />
-    <state width="1561" height="311" key="GridCell.Tab.0.right/0.23.1792.1051@0.23.1792.1051" timestamp="1603352704522" />
-    <state width="1561" height="311" key="GridCell.Tab.0.right/0.23.1792.1052@0.23.1792.1052" timestamp="1603351461656" />
+    <state width="1561" height="204" key="GridCell.Tab.0.right/0.23.1792.1051@0.23.1792.1051" timestamp="1603355490249" />
+    <state width="1561" height="183" key="GridCell.Tab.0.right/0.23.1792.1052@0.23.1792.1052" timestamp="1603354965469" />
     <state width="1561" height="240" key="GridCell.Tab.0.right/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
     <state width="1376" height="164" key="GridCell.Tab.0.right/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963936" />
     <state width="1561" height="226" key="GridCell.Tab.0.right/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
