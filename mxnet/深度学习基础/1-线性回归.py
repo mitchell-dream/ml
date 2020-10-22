@@ -1,5 +1,12 @@
 from mxnet import autograd, nd
 
+# 使用Gluon可以更简洁地实现模型。
+# 在Gluon中，data模块提供了有关数据处理的工具，nn模块定义了大量神经网络的层，loss模块定义了各种损失函数。
+# MXNet的initializer模块提供了模型参数初始化的各种方法。
+
+
+
+
 # 3.3.1. 生成数据集
 num_inputs = 2
 num_exaples = 1000
@@ -58,7 +65,9 @@ for epoch in range(1, num_epochs + 1):
     for X, y in data_iter:
         with autograd.record():
             l = loss(net(X), y)
+        # l.backward() <=> nd.sum(loss).bacward() 相当于把一个 batch 的loss 都加起来求梯度
         l.backward()
+        # trainer.step(batch_size) 相当于把计算出来的梯度 除以 batch_size，弱化在更新参数时的影响
         trainer.step(batch_size)
     l = loss(net(features), labels)
     print('epoch %d, loss: %f' % (epoch, l.mean().asnumpy()))
