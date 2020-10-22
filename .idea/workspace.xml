@@ -20,14 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed75c465-1ab2-4236-a7bc-a262b6c74d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mxnet/3.11.4多项式函数拟合实验.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mxnet/3.12.2高维线性回归实验.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mxnet/3.12.4权重衰减简介实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mxnet/3.13.2丢弃法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mxnet/3.16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mxnet/3.16房价预测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mxnet/3-多层感知机0-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mxnet/3-多层感知机简介实现.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet/深度学习计算/4.1模型构造.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/1-线性回归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/2-softmax简洁实现.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.1.1多层感知机0-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.1.2多层感知机简介实现.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.11.4多项式函数拟合实验.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.12.2高维线性回归实验.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.12.4权重衰减简介实现.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.13.2丢弃法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/3.16房价预测.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/house-prices-advanced-regression-techniques/data_description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/house-prices-advanced-regression-techniques/sample_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/house-prices-advanced-regression-techniques/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/house-prices-advanced-regression-techniques/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/submission.csv.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/拟合示例/欠拟合.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/拟合示例/正常情况.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/拟合示例/过拟合.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/激活函数/ReLU函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/激活函数/sigmoid函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxnet/激活函数/tanh函数.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +69,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.3.16">
+  <component name="RunManager" selected="Python.1-线性回归">
+    <configuration name="1-线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mxnet/深度学习基础" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mxnet/深度学习基础/1-线性回归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3.12.2高维线性回归实验" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ml" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3.16" />
+        <item itemvalue="Python.1-线性回归" />
         <item itemvalue="Python.3.16房价预测" />
         <item itemvalue="Python.3.13.2丢弃法" />
         <item itemvalue="Python.3.12.4权重衰减简介实现" />
@@ -190,40 +227,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1561" height="240" key="GridCell.Tab.0.bottom" timestamp="1598771369211">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state width="1561" height="276" key="GridCell.Tab.0.bottom" timestamp="1603282330080">
+      <screen x="0" y="23" width="1792" height="1048" />
     </state>
-    <state width="1600" height="407" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114590" />
+    <state width="1561" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="240" key="GridCell.Tab.0.bottom/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369211" />
     <state width="1376" height="164" key="GridCell.Tab.0.bottom/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963937" />
     <state width="1561" height="226" key="GridCell.Tab.0.bottom/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1561" height="194" key="GridCell.Tab.0.bottom/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
     <state width="1600" height="359" key="GridCell.Tab.0.bottom/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="240" key="GridCell.Tab.0.center" timestamp="1598771369210">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state width="1561" height="276" key="GridCell.Tab.0.center" timestamp="1603282330080">
+      <screen x="0" y="23" width="1792" height="1048" />
     </state>
-    <state width="1600" height="407" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="276" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114589" />
+    <state width="1561" height="276" key="GridCell.Tab.0.center/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="240" key="GridCell.Tab.0.center/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
     <state width="1376" height="164" key="GridCell.Tab.0.center/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963935" />
     <state width="1561" height="226" key="GridCell.Tab.0.center/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1561" height="194" key="GridCell.Tab.0.center/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128874" />
     <state width="1600" height="359" key="GridCell.Tab.0.center/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="240" key="GridCell.Tab.0.left" timestamp="1598771369208">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state width="1561" height="276" key="GridCell.Tab.0.left" timestamp="1603282330080">
+      <screen x="0" y="23" width="1792" height="1048" />
     </state>
-    <state width="1600" height="407" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="276" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114589" />
+    <state width="1561" height="276" key="GridCell.Tab.0.left/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="240" key="GridCell.Tab.0.left/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369208" />
     <state width="1376" height="164" key="GridCell.Tab.0.left/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963934" />
     <state width="1561" height="226" key="GridCell.Tab.0.left/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
     <state width="1600" height="304" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1057" timestamp="1598534870352" />
     <state width="1561" height="194" key="GridCell.Tab.0.left/0.23.1792.1058@0.23.1792.1058" timestamp="1598616128873" />
     <state width="1600" height="359" key="GridCell.Tab.0.left/0.23.1792.1059@0.23.1792.1059" timestamp="1598583372266" />
-    <state width="1561" height="240" key="GridCell.Tab.0.right" timestamp="1598771369210">
-      <screen x="0" y="23" width="1792" height="1055" />
+    <state width="1561" height="276" key="GridCell.Tab.0.right" timestamp="1603282330080">
+      <screen x="0" y="23" width="1792" height="1048" />
     </state>
-    <state width="1600" height="407" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1597838543661" />
+    <state width="1561" height="276" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1603282114590" />
+    <state width="1561" height="276" key="GridCell.Tab.0.right/0.23.1792.1048@0.23.1792.1048" timestamp="1603282330080" />
     <state width="1561" height="240" key="GridCell.Tab.0.right/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369210" />
     <state width="1376" height="164" key="GridCell.Tab.0.right/0.23.1792.1056@0.23.1792.1056" timestamp="1598585963936" />
     <state width="1561" height="226" key="GridCell.Tab.0.right/0.23.1792.1057@0.23.1792.1057" timestamp="1598607399785" />
@@ -249,9 +291,10 @@
     </state>
     <state width="1600" height="329" key="GridCell.Tab.1.right/0.23.1792.1055@0.23.1792.1055" timestamp="1598771369118" />
     <state width="1600" height="329" key="GridCell.Tab.1.right/0.23.1792.1058@0.23.1792.1058" timestamp="1598335542929" />
-    <state x="575" y="274" width="604" height="490" key="find.popup" timestamp="1598582305318">
-      <screen x="0" y="23" width="1792" height="1058" />
+    <state x="575" y="272" width="604" height="490" key="find.popup" timestamp="1603284415526">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
+    <state x="575" y="272" width="604" height="490" key="find.popup/0.23.1792.1050@0.23.1792.1050" timestamp="1603284415526" />
     <state x="575" y="274" width="604" height="490" key="find.popup/0.23.1792.1058@0.23.1792.1058" timestamp="1598582305318" />
     <state x="567" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1598607168032">
       <screen x="0" y="23" width="1792" height="1057" />

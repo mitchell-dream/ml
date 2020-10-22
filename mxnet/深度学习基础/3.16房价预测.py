@@ -17,12 +17,20 @@ test_data = pd.read_csv('house-prices-advanced-regression-techniques/test.csv')
 # 让我们来查看前4个样本的前4个特征、后2个特征和标签（SalePrice）：
 # print(train_data.iloc[0:4, [0, 1, 2, 3, -3, -2, -1]])
 
+
+print(train_data.iloc[:, 1:-1])
+print(test_data.iloc[:, 1:])
+
+# 合并训练数据的 第1列到倒数第二列，测试数据的第一列到最后一列数据
 all_features = pd.concat((train_data.iloc[:, 1:-1], test_data.iloc[:, 1:]))
+# 特征
 print(all_features)
 
 # 特征标准化
+# 获取所有特征的 index
 numeric_features = all_features.dtypes[all_features.dtypes != 'object'].index
 print(numeric_features)
+# 对所有特征标准化
 all_features[numeric_features] = all_features[numeric_features].apply(
     lambda x: (x - x.mean()) / (x.std()))
 
@@ -35,12 +43,17 @@ all_features[numeric_features] = all_features[numeric_features].fillna(0)
 all_features = pd.get_dummies(all_features, dummy_na=True)
 print(all_features)
 
+# 获取训练特征数量
 n_train = train_data.shape[0]
+# 获取训练特征
 train_features = nd.array(all_features[:n_train].values)
+# 获取测试特征
 test_features = nd.array(all_features[n_train:].values)
+# 将矩阵重组成 1 列，行数 -1 代表自动计算行数
 train_labels = nd.array(train_data.SalePrice.values).reshape((-1, 1))
 
 
+# 使用基本的线性回归模型来训练模型
 loss = gloss.L2Loss()
 loss = d2l.squared_loss
 def get_net():
@@ -62,6 +75,7 @@ def log_rmse(net, features, labels):
     rmse = nd.sqrt(2 * loss(clipped_preds.log(), labels.log()).mean())
     return rmse.asscalar()
 
+# 训练使用 Adam 算法进行训练
 def train(net, train_features, train_labels, test_features, test_labels,
           num_epochs, learning_rate, weight_decay, batch_size):
     train_ls, test_ls = [], []
@@ -81,7 +95,7 @@ def train(net, train_features, train_labels, test_features, test_labels,
             test_ls.append(log_rmse(net, test_features, test_labels))
     return train_ls, test_ls
 
-# k 折交叉验证
+# k 折交叉验证，训练 k 次，并返回训练和验证的平均误差
 def get_k_fold_data(k, i, X, y):
     assert k > 1
     fold_size = X.shape[0] // k
@@ -122,7 +136,11 @@ def k_fold(k, X_train, y_train, num_epochs,
 # 5-fold validation: avg train rmse 0.069804, avg valid rmse 0.135053 5, 100, 0.12, 200, 64
 # train rmse 0.067479
 
-k, num_epochs, lr, weight_decay, batch_size = 5, 100, 0.12, 200, 64
+# 5-fold validation: avg train rmse 0.075872, avg valid rmse 0.137785 5, 100, 0.12, 200, 64
+# train rmse 0.075963
+
+# 模型选择：可以进行超参的调节来尽可能减少平均测试误差
+k, num_epochs, lr, weight_decay, batch_size = 5, 100, 0.15, 200, 64
 train_l, valid_l = k_fold(k, train_features, train_labels, num_epochs, lr,
                           weight_decay, batch_size)
 print('%d-fold validation: avg train rmse %f, avg valid rmse %f'
